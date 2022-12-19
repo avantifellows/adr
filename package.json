@@ -19,10 +19,10 @@
     "url": "https://github.com/avantifellows/adr/issues"
   },
   "homepage": "https://github.com/avantifellows/adr#readme",
-  "devDependencies": {
-    "vuepress": "^2.0.0-beta.19"
-  },
   "dependencies": {
     "markdown-it-include": "^2.0.0"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7"
   }
 }
