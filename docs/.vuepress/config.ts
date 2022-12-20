@@ -22,7 +22,7 @@ export default defineConfig4CustomTheme<ThemeConfig>((ctx) => ({
         title: "Introduction",
         collapsable: false,
         children: [
-          // "/guide/README",
+          "/guide/",
           "/guide/create-new-adr",
           ["/guide/adr-template", "ADR Template"]
         ],
