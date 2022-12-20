@@ -23,7 +23,6 @@
 > This section includes the meaty details of the decision. All the technical details, diagrams, specifications, syntax and semantics should be discussed here.
 > This section can be merged with `Solution` if need be. Images can also be attached as shown below
 
-<!-- ![](logo.jpeg) -->
 <p align="center">
   <img src="/tempReferenceDiagram.webp" width="400">
 </p>
