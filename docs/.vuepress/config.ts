@@ -4,6 +4,9 @@ import { defineConfig4CustomTheme } from "vuepress/config";
 export default defineConfig4CustomTheme<ThemeConfig>((ctx) => ({
   theme: "vt",
   title: " AF ADR",
+  head: [
+    ['link', { rel: 'icon', href: '/logo.jpeg' }]
+  ],
   themeConfig: {
     enableDarkMode: true,
     repo: "https://github.com/ulivz/vuepress-theme-vt",
