@@ -1,4 +1,5 @@
 # ADR - 1
+# THIS IS TEMPORARY -- WIll be making a valid ADR soon
 
 ## Title
 ETL Flow - Homework Quizzes
