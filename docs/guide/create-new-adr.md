@@ -50,6 +50,9 @@ cp docs/guide/adr-template.md docs/adrs/ADR-NN.md
 ### Write your content in the newly created file
 Create your ADR here using the copied template. Make sure all sections are filled accordingly.
 
+#### What about Diagrams?
+Recommended way is to create diagrams using [DrawIO](https://app.diagrams.net/). It's free to use and just like Whimsical or any other drawing tool. The best part? You can export the file as an `SVG`, which you can re-upload to the DrawIO platform if you want to make any changes in the future. Make sure to save the image file in `docs/public` directory, with name something like `adr1_image3.svg`.
+
 ### Create a pull request
 Create a pull request from your branch to main. Creating the PR will automatically deploy your changes to a staging site - [staging-adr.avantifellows.org](https://staging-adr.avantifellows.org)
 
