@@ -1,28 +1,15 @@
 {
-  "name": "adr",
-  "version": "1.0.0",
-  "description": "This repo contains ADR for Avanti Fellows, served as a static S3 website",
-  "main": "index.js",
+  "private": true,
+  "name": "{{ name }}",
+  "version": "0.6.0",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "deploy-staging": "vuepress build docs && aws --profile plio-s3-bot --region ap-south-1 s3 sync ./docs/.vuepress/dist s3://plio-docs-staging --delete --acl public-read",
-    "deploy": "vuepress build docs && aws --profile plio-s3-bot --region ap-south-1 s3 sync ./docs/.vuepress/dist s3://plio-docs --delete --acl public-read"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/avantifellows/adr.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/avantifellows/adr/issues"
-  },
-  "homepage": "https://github.com/avantifellows/adr#readme",
-  "dependencies": {
-    "markdown-it-include": "^2.0.0"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^1.9.7"
-  }
+    "vuepress": "1.9.7",
+    "vuepress-theme-vt": "0.6.0"
+  },
+  "description": "{{ description }}",
+  "author": "{{ username }} <{{ email }}>"
 }

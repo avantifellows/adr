@@ -27,7 +27,7 @@ jobs:
 
     # build the vuepress docs
     - name: Build
-      run: npm run docs:build
+      run: npm run build
 
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
