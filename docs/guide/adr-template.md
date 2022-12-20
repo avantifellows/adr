@@ -27,6 +27,10 @@
   <img src="/tempReferenceDiagram.webp" width="400">
 </p>
 
+::: tip
+*To know how to create and add such diagrams, make sure to see the [create-new-adr](/guide/create-new-adr.html#what-about-diagrams) section*
+:::
+
 ## Status
 > A decision may be "proposed" if the project stakeholders haven't agreed with it yet, or "accepted" once it is agreed. If a later ADR changes or reverses a decision, it may be marked as "deprecated" or "superseded" with a reference to its replacement. You can use any one of these given badges
 
